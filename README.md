@@ -2,8 +2,10 @@ Plugin for PIC microcontrollers.
 
 Tested with a PIC1F628a and a 128x64 SSD1306 Oled display
 
-Should work with other PIC's too. Software driven
-See the 'main.c' for most of the possibilities it can do.
+Should work with other PIC's too. Software driven.
+
+See the 'main.c' for most of the possibilities it can do. And oledlib.c for some other functions not used in the example file.
+
 
 I used old-school stuff, PIC16F628a, HI-TECH compiler and MPLAB (not X)
 
