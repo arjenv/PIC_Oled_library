@@ -1,4 +1,5 @@
-Plugin for PIC microcontrollers
+Plugin for PIC microcontrollers.
+
 Tested with a PIC1F628a and a 128x64 SSD1306 Oled display
 
 Should work with other PIC's too. Software driven
