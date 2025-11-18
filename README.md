@@ -7,7 +7,7 @@ See the 'main.c' for most of the possibilities it can do.
 
 I used old-school stuff, PIC16F628a, HI-TECH compiler and MPLAB (not X)
 
-You'll have to change the #include <htc.h> If you use the modern stuff
+You'll have to change the #include <htc.h> If you use the modern stuff.
 try <xc.c> :-)
 
 Tried to 'catch' all eventualities for the x- and y positions but might have missed something in the beta test.
