@@ -103,5 +103,6 @@ void Oled_Print(const uint8_t*s);
 void Oled_ClearDisplay(uint8_t c);
 void drawChar2(uint8_t fig, unsigned char y, unsigned char x);
 void Oled_Printscaled(const uint8_t *s, uint8_t fontsize);
+void Oled_rotate(uint8_t rotate);
 
 #endif   

@@ -429,3 +429,7 @@ void Oled_Printscaled(const uint8_t *s, uint8_t fontsize) { // added \r and \n f
 	}
 }
 
+void	Oled_rotate(uint8_t rotate) { // rotate = 0 or 1. 1 = rotate 180deg
+			Oled_command(SSD1306_SEGREMAP | !(rotate&0x01));					// 0xA0 
+  			Oled_command(SSD1306_COMSCANINC | ((!(rotate&0x01))<<3));			// 0xC0
+}

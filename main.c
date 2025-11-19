@@ -4,6 +4,8 @@ PIC16F628A to OLED
 Example functions for OLED SSD1306
 ARV november 2025
 
+V1.1
+
 ***************************************************************************************/
 
 #include "main.h"
@@ -20,7 +22,7 @@ void main() {
 	Oled_ClearDisplay(0);
   	Oled_GotoXY(1, 2);
   	Oled_Print("SSD1306 Oled display.\n\n");
-  	Oled_Print("V1.0 november 2025\n ARV");
+  	Oled_Print("V1.1 november 2025\n ARV");
   __delay_ms(2000);
 
   	// clear the screen
