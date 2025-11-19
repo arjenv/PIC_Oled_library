@@ -1,3 +1,5 @@
+MAY NOT BE BUG FREE
+
 Plugin for PIC microcontrollers.
 
 Tested with a PIC1F628a and a 128x64 SSD1306 Oled display
@@ -14,3 +16,7 @@ try <xc.c> :-)
 
 Tried to 'catch' all eventualities for the x- and y positions but might have missed something in the beta test.
 So open an issue if something's not right, and I'll try to solve it.
+
+19 nov 2025 
+V1.1 Added Oled_rotate() function.
+
