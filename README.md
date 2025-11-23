@@ -2,6 +2,8 @@ MAY NOT BE BUG FREE
 
 Plugin for PIC microcontrollers.
 
+https://www.youtube.com/shorts/9FisDHUpdi8
+
 Tested with a PIC1F628a and a 128x64 SSD1306 Oled display
 
 Should work with other PIC's too. Software driven.
